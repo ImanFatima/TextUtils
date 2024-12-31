@@ -40,3 +40,15 @@
 .blank{
   color: brown;
 }
+.color-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Makes buttons round */
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.color-btn:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
